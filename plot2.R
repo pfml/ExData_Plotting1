@@ -26,7 +26,7 @@ electricPowerDaysCons <- transform(electricPowerDaysCons, timestamp=as.POSIXct(p
 
 png(filename = 'plot2.png', width = 506, height = 506, units = "px")
 
-# Plot histogram
+# Plot graphic
 
 plot(electricPowerDaysCons$timestamp, electricPowerDaysCons$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
 
